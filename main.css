@@ -1,0 +1,535 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    outline: none !important;
+}
+
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner.jpg);
+    background-position: center 25%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+header .row {
+    text-align: center;
+    margin-top: 22%;
+    color: white;
+    position: absolute;
+}
+
+header .row h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 300px;
+    margin: 0 auto 1em auto;
+    padding: 12px;
+}
+
+header .row p {
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: 5px;
+    width: 35%;
+    margin: 0 auto 2em auto;
+}
+
+header .col-md-12:nth-child(2) p {
+    margin-bottom: 5px;
+}
+
+header .col-md-12:nth-child(2) p:last-child {
+    margin-bottom: 2.5em;
+}
+
+header button {
+    background-color: #ED4933;
+    color: white;
+    border-radius: 3px !important;
+    margin-bottom: 3em !important;
+    padding: 0.7em 2.3em !important;
+}
+
+header .col-md-12:last-child p {
+    margin-bottom: 0.8em;
+}
+
+header .col-md-12:last-child img {
+    height: 20px;
+}
+
+.leer-mas {
+    opacity: 1;
+    -moz-transition: all 700ms ease-out;
+    -webkit-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;
+}
+
+.bounce-up {
+    opacity: 0;
+    -moz-transform: translate3d(0px, 50px, 0px);
+    -webkit-transform: translate3d(0px, 50px, 0px);
+    -o-transform: translate(0px, 50px);
+    -ms-transform: translate(0px, 50px);
+    transform: translate3d(0px, 50px, 0px);
+}
+
+#nosotros {
+    background-color: #21B2A6;
+    color: white;
+}
+
+#nosotros .container {
+    padding: 7em;
+}
+
+#nosotros .row {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+#nosotros .col-md-12 h3 {
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#nosotros .col-md-12:first-child h3 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0.3em;
+}
+
+#nosotros .col-md-12:first-child h3:last-child {
+    border-bottom: 2px solid #1D9C92;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+#nosotros p {
+    font-weight: 80%;
+    font-size: 1.2em;
+    line-height: 15px;
+    color: #BFE8E5;
+}
+
+#nosotros p:last-child {
+    margin-bottom: 5em;
+}
+
+#nosotros img {
+    margin-right: 5em;
+    margin-bottom: 3em;
+}
+
+#nosotros img:last-child {
+    margin-right: 0;
+}
+
+#conoce {
+    color: white;
+}
+
+#conoce .container-fluid,
+#conoce .row,
+#conoce .col-md-5 {
+    padding: 0;
+    margin: 0;
+}
+
+#conoce .row {
+    background-color: #242C33;
+}
+
+#conoce .row:nth-child(2) {
+    background-color: #273038;
+}
+
+#conoce .col-md-7 {
+    padding: 5em;
+}
+
+#conoce h4 {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+#conoce p {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #F6F6F6;
+    width: 80%;
+}
+
+#informacion {
+    background-color: #505393;
+    color: #fff;
+}
+
+#informacion .row:first-child {
+    text-align: center;
+    background-color: #505393;
+    padding: 9em 4em 7em 4em;
+}
+
+#informacion .row:first-child h4 {
+    font-size: 1.8em;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+#informacion h4 {
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 3px solid #464981;
+}
+
+#informacion h4,
+#informacion h5 {
+    letter-spacing: 5px;
+}
+
+#informacion p {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #D3D4E4;
+}
+
+#informacion .row:first-child p {
+    width: 85%;
+    margin: auto;
+}
+
+.block {
+    padding: 0 5em;
+}
+
+.block:last-child {
+    margin-bottom: 10em;
+}
+
+.block-lilac-1 {
+    background-color: #4E508E;
+}
+
+.block-lilac-2 {
+    background-color: #4B4D89;
+}
+
+.block-lilac-3 {
+    background-color: #484B84;
+}
+
+.block-lilac-4 {
+    background-color: #45487F;
+}
+
+.block-lilac-5 {
+    background-color: #42457A;
+}
+
+.block-lilac-6 {
+    background-color: #3F4275;
+}
+
+.block-lilac {
+    height: 420px;
+    padding: 100px 120px;
+}
+
+.block-lilac h5 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+}
+
+.block-lilac img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.block-lilac p {
+    font-size: 1.2em;
+}
+
+#adopta {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner.jpg);
+    background-position: center 25%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#adopta .container {
+    display: flex;
+    flex-direction: row;
+    padding: 10em 5em;
+    margin: 0;
+}
+
+#adopta .col-md-6 h4 {
+    font-size: 1.8em;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#adopta p {
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+#adopta button {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 5px;
+    border-radius: 3px;
+    padding: 1em;
+    width: 50%;
+}
+
+#adopt-btn {
+    background-color: #ED4933;
+    margin-bottom: 20px;
+}
+
+#learn-more-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+footer {
+    background-color: #242C33;
+    color: #8E9193;
+    text-align: center;
+    padding: 3em 7em;
+    font-size: 2em;
+}
+
+footer i {
+    margin-right: 1em;
+}
+
+footer i:last-child {
+    margin: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/pic05.jpg);
+        background-position: 45% 25%;
+        background-size: cover;
+    }
+    #adopta {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/pic05.jpg);
+        background-position: 50% center;
+        background-size: cover;
+    }
+    .block-lilac {
+        height: 250px;
+        padding: 25px 50px;
+        text-align: center;
+    }
+    .block-lilac h5 {
+        font-size: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1.2em;
+    }
+    .block-lilac img {
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    .block-lilac p {
+        font-size: 1em !important;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    header {
+        background-size: 165%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+    }
+    header .row {
+        text-align: center;
+        margin-top: 22%;
+        color: white;
+        position: absolute;
+    }
+    header .row h1 {
+        font-size: 1.5em;
+        width: 70%;
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin: 0 auto 1em auto;
+        padding: 12px;
+    }
+    header .row p {
+        font-weight: 300;
+        font-size: 1.1em;
+        letter-spacing: 5px;
+        width: 100%;
+        margin: 0 auto 2em auto;
+    }
+    header button {
+        width: 100%;
+    }
+    #nosotros .container {
+        padding: 2em;
+    }
+    #nosotros h3 {
+        font-size: 1.2em;
+    }
+    #nosotros p {
+        font-weight: 80%;
+        font-size: 1em;
+        line-height: 15px;
+        color: #BFE8E5;
+    }
+    #informacion .row:first-child {
+        text-align: center;
+        background-color: #505393;
+        padding: 2em 0;
+    }
+    #informacion .row:first-child h4 {
+        font-size: 1.2em;
+        font-weight: bold;
+        border-bottom: 3px solid #464981;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+    }
+    #informacion .row:first-child p {
+        font-size: 1.1em;
+    }
+    #informacion {
+        padding: 0;
+        margin: 0;
+    }
+    #informacion .row {
+        width: 100%;
+        margin: 0;
+        margin: auto;
+    }
+    .block-lilac {
+        background-color: transparent;
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 2px solid #464981;
+        text-align: center;
+    }
+    .block-lilac:last-child {
+        border: none;
+    }
+    .block-lilac h5 {
+        font-size: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1.2em;
+    }
+    .block-lilac img {
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    .block-lilac p {
+        font-size: 1em !important;
+    }
+    #adopta {
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: 55% 80%;
+        background-attachment: fixed;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    #adopta .container {
+        display: flex;
+        flex-direction: row;
+        padding: 2em;
+        margin: 0;
+    }
+    #adopta .col-md-6 h4 {
+        font-size: 1.2em;
+        letter-spacing: 5px;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+    #adopta p {
+        font-weight: 300;
+        font-size: 1em;
+        margin-bottom: 3em;
+    }
+    #adopta button {
+        color: #fff;
+        font-size: 1em;
+        font-weight: 600;
+        letter-spacing: 5px;
+        border-radius: 3px;
+        padding: 1em;
+        width: 100%;
+    }
+    #adopt-btn {
+        background-color: #ED4933;
+        margin-bottom: 20px;
+    }
+    #learn-more-btn {
+        background-color: transparent;
+        border: 2px solid #fff;
+    }
+    footer {
+        background-color: #242C33;
+        color: #8E9193;
+        text-align: center;
+        padding: 2em;
+        font-size: 1.5em;
+    }
+    footer i {
+        margin-right: 1em;
+    }
+    footer i:last-child {
+        margin: 0;
+    }
+}
+
+
+/*
+@media screen and (max-width: 465px) {
+    .container {
+        background-image: url("../images/maxresdefault.jpg");
+    }
+}*/
